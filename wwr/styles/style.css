@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Sofia+Sans&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #8ab9ee   ;
+    --secondary-color: #1957b3 ;
+    --accent1-color: #4680a7;
+    --accent2-color: #313453;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Aboreto";
+    --paragraph-font: "Sofia Sans", Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #1957b3;  /* headlines on a white background */ 
+    --headline-color-on-color: #2770a1; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #313453; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #8ab9ee; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #8ab9ee;
+    --nav-link-color: #447ea5;
+    --nav-background-color: #313453;
+    --nav-hover-link-color: #8ab9ee;
+    --nav-hover-background-color: #1957b3;
+  }
+
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--accent2-color);
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color)
+}
+
+.book{
+color: var(--paragraph-color-on-color);
+}
+
+#hero-msg h1{
+    text-align: center;
+}
+#hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+.book{
+    text-decoration: none;
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+}
+
+.book:hover{
+    text-decoration: underline;
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+.join{
+    text-decoration: none;
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+}
+
+.join:hover{
+    text-decoration: underline;
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+main section{
+    text-align: center;
+}
+
+#background{
+    background-color: var(--paragraph-background-color);
+    height: 725px;
+}
+
+.msg{
+    background-color: var(--paragraph-background-color);
+}
+
+body{
+    background-color: white;
+    color: var(--paragraph-color-on-white);
+}
+
+header{
+    background-color: var(--accent1-color);
+}
+
+footer{
+    background-color: var(--accent2-color);
+}
+
+footer p{
+    color: var(--paragraph-color-on-color);
+   
+    font-size: 140%;
+}
+
+footer p a{
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    width: 80px;
+}
+
+.icon{
+    width: 80px;
+}
+
+#hero-img{
+    width: 100%;
+}
