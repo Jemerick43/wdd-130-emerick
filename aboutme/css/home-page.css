@@ -1,9 +1,38 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+
+:root{
+    --intro-font: "Aboreto", Helvetica;
+    --body-font: "Sofia Sans", sans-serif;
+}
+
+.logo_link{
+    text-decoration: none;
+}
+
+#main-header{
+    font-size: 200%;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: "Dosis";
+    background-color: beige;
+}
+
+#content{
     max-width: 1600px;
     margin: 0 auto;
+    
+}
+
+body{
     text-align: center;
 }
 
 #main-hero{
     max-width: 100%;
+    box-shadow: 10px 5px 5px grey;
+}
+
+img:hover{
+
 }
