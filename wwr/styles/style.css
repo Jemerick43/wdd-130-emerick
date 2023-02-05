@@ -30,6 +30,7 @@
 }
 
 nav a{
+    padding: 35px;
     text-align: center;
     text-decoration: none;
     background-color: var(--accent2-color);
@@ -40,10 +41,6 @@ nav a:hover{
     text-decoration: underline;
     background-color: var(--nav-hover-background-color);
     color: var(--nav-hover-link-color)
-}
-
-.book{
-color: var(--paragraph-color-on-color);
 }
 
 #hero-msg h1{
@@ -58,9 +55,14 @@ color: var(--paragraph-color-on-color);
 }
 
 .book{
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: 18px;
     text-decoration: none;
     background-color: var(--nav-background-color);
     color: var(--nav-link-color);
+    padding: 15px 30px;
+    color: var(--paragraph-color-on-color);
 }
 
 .book:hover{
@@ -69,13 +71,17 @@ color: var(--paragraph-color-on-color);
     color: var(--nav-hover-link-color);
 }
 
-.join{
+.join-us{
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: 18px;
     text-decoration: none;
     background-color: var(--nav-background-color);
     color: var(--nav-link-color);
 }
 
-.join:hover{
+.join-us:hover{
     text-decoration: underline;
     background-color: var(--nav-hover-background-color);
     color: var(--nav-hover-link-color);
@@ -91,12 +97,31 @@ main section{
 }
 
 .msg{
+    padding: 35px;
+    line-height: 1.5em;
     background-color: var(--paragraph-background-color);
 }
 
+.msg p{
+    padding-bottom: 15px;
+    font-size: .8em;
+}
+
+.msg h2{
+    font-family: var(--heading-font), Impact, Haettenschweiler, sans-serif;
+}
+
 body{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: var(--paragraph-font), Arial, Helvetica, sans-serif;
     background-color: white;
     color: var(--paragraph-color-on-white);
+}
+
+h2{
+    margin: 0;
 }
 
 header{
@@ -104,13 +129,13 @@ header{
 }
 
 footer{
+    padding: 25px 50px;
     background-color: var(--accent2-color);
 }
 
 footer p{
     color: var(--paragraph-color-on-color);
-   
-    font-size: 140%;
+    margin-top: 200px;
 }
 
 footer p a{
@@ -122,14 +147,54 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+.home-title{
+    margin-top: 10px;
+    font-size: 2em;
+    font-family: var(--heading-font), Impact, Haettenschweiler, sans-serif;
+}
+
 .logo{
+    padding-bottom: 50px;
     width: 80px;
 }
 
 .icon{
+    padding-top: 10px;
     width: 80px;
 }
 
 #hero-img{
     width: 100%;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer.social.img{
+    padding-top: 15px;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid var(--accent2-color);
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+.mountains{
+    margin: 8em 0;
 }
