@@ -1,0 +1,8 @@
+body{
+    display: grid;
+}
+
+header{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
