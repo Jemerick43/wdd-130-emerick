@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Sofia+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
 
+body, html{
+    background-color: beige;
+}
+
 :root{
     --intro-font: "Aboreto", Helvetica;
     --body-font: "Sofia Sans", sans-serif;
@@ -15,7 +19,6 @@
     font-weight: bolder;
     text-decoration: none;
     font-family: "Dosis";
-    background-color: beige;
 }
 
 #content{
@@ -31,8 +34,4 @@ body{
 #main-hero{
     max-width: 100%;
     box-shadow: 10px 5px 5px grey;
-}
-
-img:hover{
-
 }
