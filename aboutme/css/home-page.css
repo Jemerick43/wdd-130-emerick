@@ -1,21 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Sofia+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
 
-body, html{
-    background-color: beige;
-}
-
 :root{
     --intro-font: "Aboreto", Helvetica;
     --body-font: "Sofia Sans", sans-serif;
+    --body-color: #d8ddd8;
+    --dark-color-dark: #3f3344;
+    --dark-color-light: #574B60;
+    --accent-color: #7d8491;
+    --shadow-color: #c0c5c1;
 }
 
-.logo_link{
+body, html{
+    margin: 0;
+    background-color: var(--body-color);
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 42px 1fr;
+    grid-template-rows: auto;
+    background-color: var(--dark-color-dark);
+}
+
+.logo{
+    width:40px;
+}
+
+.home-link{
+    grid-column: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    grid-column: 2/3;
+    grid-row: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
     text-decoration: none;
+    padding: 10px;
+    color: var(--accent-color);
+    background-color: var(--dark-color-dark);
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: var(--body-color);
+    background-color: var(--dark-color-light);
 }
 
 #main-header{
-    font-size: 200%;
+    font-size: 18px;
     font-weight: bolder;
     text-decoration: none;
     font-family: "Dosis";
