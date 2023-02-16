@@ -75,3 +75,13 @@ body{
     max-width: 100%;
     box-shadow: 10px 5px 5px grey;
 }
+
+footer{
+    height: 42px;
+    background-color: var(--dark-color-dark);
+}
+
+.social a img{
+    text-decoration: none;
+    width: 40px;
+}
