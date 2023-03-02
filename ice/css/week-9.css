@@ -1,0 +1,50 @@
+body, html{
+    margin: 0;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+h2{
+    grid-row: 0/1;
+}
+
+h1{
+    grid-row: 1/2;
+}
+
+p{
+    grid-row: 2/3;
+}
+
+section{
+    display: grid;
+}
+
+footer{
+    color: white;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #3f5b8b;
+    
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    justify-content: center;
+    display: flex;
+    margin: 0;
+}
