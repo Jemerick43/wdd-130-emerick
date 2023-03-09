@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Sofia+Sans&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #8ab9ee   ;
+    --secondary-color: #1957b3 ;
+    --accent1-color: rgb(70, 128, 167);
+    --accent2-color: #313453;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Aboreto";
+    --paragraph-font: "Sofia Sans", Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #1957b3;  /* headlines on a white background */ 
+    --headline-color-on-color: #2770a1; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #313453; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #8ab9ee; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #8ab9ee;
+    --nav-link-color: #447ea5;
+    --nav-background-color: #313453;
+    --nav-hover-link-color: #8ab9ee;
+    --nav-hover-background-color: #1957b3;
+  }
+
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    padding: 35px;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--accent2-color);
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color)
+}
+
+#hero-msg h1{
+    color: whitesmoke;
+    text-align: center;
+}
+#hero-msg h4{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+.book{
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    padding: 15px 30px;
+    color: var(--paragraph-color-on-color);
+}
+
+.book:hover{
+    text-decoration: underline;
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+.join-us{
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+}
+
+.join-us:hover{
+    text-decoration: underline;
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+main section{
+    text-align: center;
+}
+
+#background{
+    background-color: var(--paragraph-background-color);
+    height: 725px;
+}
+
+.msg{
+    padding: 35px;
+    line-height: 1.5em;
+    background-color: var(--paragraph-background-color);
+}
+
+.msg p{
+    padding-bottom: 15px;
+    font-size: .8em;
+}
+
+.msg h2{
+    font-family: var(--heading-font), Impact, Haettenschweiler, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: var(--paragraph-font), Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: var(--paragraph-color-on-white);
+}
+
+h2{
+    margin: 0;
+}
+
+header{
+    margin-bottom: 180px;
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: var(--accent2-color);
+}
+
+footer{
+    margin-top: 180px;
+    padding: 25px 50px;
+    background-color: var(--accent2-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    color: var(--paragraph-color-on-color);
+    margin-top: 100px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+.home-title{
+    margin-top: 40px;
+    font-size: 2em;
+    font-family: var(--heading-font), Impact, Haettenschweiler, sans-serif;
+}
+
+.logo{
+    width: 80px;
+}
+
+.icon{
+    padding-top: 10px;
+    width: 80px;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+   
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer.social.img{
+    padding-top: 15px;
+}
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+            
